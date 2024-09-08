@@ -6,16 +6,10 @@
 
 ## Table of Contents
 
-1. Wireframes [Go to My content](#wireframes)
-2. Technologies Used
-3. Features
-4. Future Work
-5. Installation
-6. Running the Application
-7. Testing
-8. Deployment
-9. Contributing
-10. License
+1. [Wireframes](#wireframes)
+2. [Technologies Used](#technologies-used)
+3. [Features](#features)
+4. [Future Work](#future-work)
 
 ---
 
