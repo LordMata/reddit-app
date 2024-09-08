@@ -1,10 +1,10 @@
-#Project Overview
+# Project Overview
 
 **Reddit Clone Application** is a responsive web application built using React and Redux that mimics the core functionalities of Reddit. Users can browse posts, search for content, filter based on categories, view detailed information, and interact with the application seamlessly across various devices and browsers.
 
 ---
 
-##Table of Contents
+## Table of Contents
 
 1. Wireframes
 2. Technologies Used
@@ -19,7 +19,7 @@
 
 ---
 
-##Wireframes
+## Wireframes
 
 *Wireframes are essential for visualizing the layout and user interface of the application*.
 
@@ -30,7 +30,7 @@ Replace path/to/... with actual paths to your wireframe images.
 
 ---
 
-##Technologies Used
+## Technologies Used
 
 - **Frontend**:
     - **HTML5 & CSS3**: For structuring and styling the application.
@@ -55,7 +55,7 @@ Replace path/to/... with actual paths to your wireframe images.
 
 ---
 
-##Features
+## Features
 
 1. **Responsive Design**:
     - Accessible on any device (desktop, tablet, mobile).
@@ -82,7 +82,7 @@ Replace path/to/... with actual paths to your wireframe images.
 
 ---
 
-##Future Work
+## Future Work
 
 - **User Authentication**:
     - Implement user login and registration functionalities.
