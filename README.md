@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
-1. Wireframes
+1. Wireframes [Go to My content](#wireframes)
 2. Technologies Used
 3. Features
 4. Future Work
