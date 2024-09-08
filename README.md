@@ -23,10 +23,10 @@
 
 *Wireframes are essential for visualizing the layout and user interface of the application*.
 
-###Home Page
-###Detailed View Modal
-###Search and Filter
-Replace path/to/... with actual paths to your wireframe images.
+### Home Page
+### Detailed View Modal
+### Search and Filter
+
 
 ---
 
