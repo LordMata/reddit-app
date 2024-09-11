@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',  // Entry point for your app
+  entry: './src/index.js',  // Entry point for the app
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
@@ -10,16 +10,16 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,  // Process JavaScript and JSX files
+        test: /\.(js|jsx)$/,  // Process of JavaScript and JSX files
         exclude: /node_modules/,
         use: 'babel-loader',
       },
       {
-        test: /\.css$/,  // Process CSS files
+        test: /\.css$/,  // Process of CSS files
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(png|jpg|gif|svg)$/,  // Process images
+        test: /\.(png|jpg|gif|svg)$/,  // Process of images
         use: [
           {
             loader: 'file-loader',
@@ -37,14 +37,14 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html',  // Path to your HTML template
+      template: './public/index.html',  // Path to HTML template
     }),
   ],
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    static: path.join(__dirname, 'dist'),
     compress: true,
-    port: 3000,  // Port number for the dev server
-    hot: true,   // Enable hot module replacement
+    port: 3000,  // Port number
+    hot: true,   // Hot module replacement
   },
-  mode: 'development',  // Set Webpack mode to development
+  mode: 'development',  // Mode to development
 };
